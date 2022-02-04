@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #ff8a00, #e52e71);
+  background-repeat: no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.header{
+  position: sticky;
+  background-color: #023047;
+  color: white;
+  padding: 10px 0px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0px 7px 10px #003366;
+  border-radius: 0px 0px 15px 15px;
+  font-weight: 900;
+}
+
+.app-outline{
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  right: 0;
+  left: 0;
+  width: 25%;
+  margin: auto;   
+  border-radius: 30px;
+  padding: 20px 20px 30px 20px;
+}
+
+#todo-input {
+  width: 96%;
+  height: 35px;
+  margin-bottom: 10px;
+  border: 2px solid #656565;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#todo-input:hover {
+  border: 3px groove #e52e71;
+}
+
+#todo-input:focus {
+  border: 3px groove #e52e71;
+  outline: none;
+}
+
+.add-todo-button {
+  /* display: inline; */
+  width: 100%;
+  padding: 7px 0px;
+  font-size: large;
+  color: white;
+  border: none;
+  background-color: #ff8a00;
+}
+
+.add-todo-button:hover {
+  background-color: #990f41;
+}
+
+.note-text {
+  font-size: 25px;
+}
+
+.note-date {
+  /* display: inline; */
+  font-size: medium;
+  text-align: right;
+}
+
+span {
+  display: block;
+}
+
+h4 {
+  color: green;
+}

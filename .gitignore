@@ -1,0 +1,11 @@
+/frontend/react-frontend/node_modules/*
+/frontend/react-frontend/public/favicon.ico
+/frontend/react-frontend/public/robots.txt
+
+
+/venv
+/Todo/db*
+Todo/Todo/__pycache__
+Todo/todo_app/__pycache__/*
+Todo/todo_app/migrations
+Todo/Todo/__pycache__/settings.cpython-310.pyc
